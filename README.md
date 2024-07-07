@@ -1,26 +1,26 @@
-# GitHub Code Upload Tool
+# Automated Kali NetHunter Installation for Termux
 
-This script allows you to easily upload your code to a GitHub repository from Termux.
+This script automates the installation of Kali NetHunter on Termux.
 
 ## How to Use
 
-1. Clone the repository:
+1. Clone the repository (if using GitHub):
 
     ```sh
-    git clone https://github.com/ahmed090123//leader.git
-    cd leader
+    git clone https://github.com/ahmed090123/nethunter-installation.git
+    cd nethunter-installation
     ```
 
-2. Make the upload script executable:
+2. Make the setup script executable (if needed):
 
     ```sh
-    chmod +x upload_to_github.sh
+    chmod +x install_nethunter.sh
     ```
 
-3. Run the script and follow the prompts:
+3. Run the script:
 
     ```sh
-    ./upload_to_github.sh
+    ./install_nethunter.sh
     ```
 
-The script simplifies the process of managing your GitHub repositories directly from Termux.
+Follow the prompts to download, configure, and set up Kali NetHunter on your Termux environment. Ensure you grant storage access when prompted (`termux-setup-storage`).
